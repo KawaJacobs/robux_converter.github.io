@@ -1,0 +1,29 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    background-color: rgb(95, 95, 95);
+    font-size: larger;
+}
+header{
+    background-color: rgb(66, 66, 66) ;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+main{
+    background-color: rgb(66, 66, 66) ;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+legend, form, fieldset{
+    margin:20px;
+    background-color: rgb(34, 34, 34) ;
+    border: none;
+}
+#submit_button{
+    margin:10px;
+}
+#submit_button:hover{
+    background-color: rgb(79, 115, 111);
+}
